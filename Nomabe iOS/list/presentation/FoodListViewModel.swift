@@ -15,13 +15,12 @@ class FoodListViewModel: ObservableObject {
     @Published var searchResults: [ProductItem] = []
     private var cancellables = Set<AnyCancellable>()
     
+    private let interactor: FoodListInteractorProtocol
         
-        private let interactor: FoodListInteractorProtocol
-        
-        init(interactor: FoodListInteractorProtocol) {
-            self.interactor = interactor
-            bindSearchText()
-            fetchFoodItems()
+    init(interactor: FoodListInteractorProtocol) {
+        self.interactor = interactor
+        bindSearchText()
+        fetchFoodItems()
     }
 
     private func bindSearchText() {
