@@ -2,6 +2,15 @@
 
 Nomabe is an innovative application for ordering food, seamlessly integrating the power of CoreML to enhance user experience with advanced AI capabilities. This is the iOS Version, to view the Flutter Version, [click here](https://github.com/manbbo/Nomabe)
 
+### Screenshots
+<div style="display: flex;">
+  <img src="https://github.com/manbbo/Nomabe-iOS/blob/main/Prints/1.png?raw=true" width=250>
+  <img src="https://github.com/manbbo/Nomabe-iOS/blob/main/Prints/2.png?raw=true" width=250>
+  <img src="https://github.com/manbbo/Nomabe-iOS/blob/main/Prints/3.png?raw=true" width=250>
+  <img src="https://github.com/manbbo/Nomabe-iOS/blob/main/Prints/4.png?raw=true" width=250>
+  <img src="https://github.com/manbbo/Nomabe-iOS/blob/main/Prints/5.png?raw=true" width=250>
+</div>
+
 ### About CoreML
 
 CoreML is a powerful framework by Apple designed to integrate machine learning models into Swift applications. It provides developers with tools to leverage machine learning capabilities directly on devices, enhancing app functionality with intelligent features.
