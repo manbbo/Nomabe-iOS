@@ -46,6 +46,9 @@
 		95435A422C3367E40073DB04 /* GenerativeAI-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 95435A412C3367E40073DB04 /* GenerativeAI-Info.plist */; };
 		95435A432C3367E40073DB04 /* GenerativeAI-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 95435A412C3367E40073DB04 /* GenerativeAI-Info.plist */; };
 		95435A442C3367E40073DB04 /* GenerativeAI-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 95435A412C3367E40073DB04 /* GenerativeAI-Info.plist */; };
+		95435A462C336A950073DB04 /* ApiKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95435A452C336A950073DB04 /* ApiKey.swift */; };
+		95435A472C336A950073DB04 /* ApiKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95435A452C336A950073DB04 /* ApiKey.swift */; };
+		95435A482C336A950073DB04 /* ApiKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95435A452C336A950073DB04 /* ApiKey.swift */; };
 		95E8AFB82C2F1FEE0084C3C7 /* Nomabe_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E8AFB72C2F1FEE0084C3C7 /* Nomabe_iOSApp.swift */; };
 		95E8AFBC2C2F1FF00084C3C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95E8AFBB2C2F1FF00084C3C7 /* Assets.xcassets */; };
 		95E8AFC02C2F1FF00084C3C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95E8AFBF2C2F1FF00084C3C7 /* Preview Assets.xcassets */; };
@@ -103,6 +106,7 @@
 		95435A362C3361870073DB04 /* FoodListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListInteractor.swift; sourceTree = "<group>"; };
 		95435A3B2C3364410073DB04 /* MockedCharHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockedCharHistory.swift; sourceTree = "<group>"; };
 		95435A412C3367E40073DB04 /* GenerativeAI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GenerativeAI-Info.plist"; sourceTree = "<group>"; };
+		95435A452C336A950073DB04 /* ApiKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiKey.swift; sourceTree = "<group>"; };
 		95E8AFB42C2F1FEE0084C3C7 /* Nomabe iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nomabe iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95E8AFB72C2F1FEE0084C3C7 /* Nomabe_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nomabe_iOSApp.swift; sourceTree = "<group>"; };
 		95E8AFBB2C2F1FF00084C3C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -352,6 +356,7 @@
 				95E8AFF32C2F25ED0084C3C7 /* NetworkRequest.swift */,
 				95378A232C32DAD80089C3DC /* Double+FormatAsPrice.swift */,
 				95378A2D2C32E8580089C3DC /* CoreMLImpl.swift */,
+				95435A452C336A950073DB04 /* ApiKey.swift */,
 			);
 			path = core;
 			sourceTree = "<group>";
@@ -511,6 +516,7 @@
 				95435A2F2C3360A60073DB04 /* FoodListService.swift in Sources */,
 				95E8AFEC2C2F23F80084C3C7 /* FoodListModel.swift in Sources */,
 				95378A242C32DAD80089C3DC /* Double+FormatAsPrice.swift in Sources */,
+				95435A462C336A950073DB04 /* ApiKey.swift in Sources */,
 				95435A372C3361870073DB04 /* FoodListInteractor.swift in Sources */,
 				95378A3D2C32ED9B0089C3DC /* MessageModel.swift in Sources */,
 				95435A232C3351F70073DB04 /* SearchBarView.swift in Sources */,
@@ -537,6 +543,7 @@
 				95435A302C3360A60073DB04 /* FoodListService.swift in Sources */,
 				95378A292C32E4730089C3DC /* TalkWithAIButtonView.swift in Sources */,
 				95378A3E2C32ED9B0089C3DC /* MessageModel.swift in Sources */,
+				95435A472C336A950073DB04 /* ApiKey.swift in Sources */,
 				95378A2F2C32E8580089C3DC /* CoreMLImpl.swift in Sources */,
 				95435A382C3361870073DB04 /* FoodListInteractor.swift in Sources */,
 				95378A332C32EB4B0089C3DC /* MessageView.swift in Sources */,
@@ -557,6 +564,7 @@
 				95E8AFFF2C2F2DF50084C3C7 /* MockedFoodListRequest.swift in Sources */,
 				95435A2B2C3359070073DB04 /* FoodListViewModel.swift in Sources */,
 				95E8AFE92C2F23530084C3C7 /* FoodListView.swift in Sources */,
+				95435A482C336A950073DB04 /* ApiKey.swift in Sources */,
 				95E8AFFB2C2F29FC0084C3C7 /* MockedFoodListResponse.swift in Sources */,
 				95E8AFD62C2F1FF00084C3C7 /* Nomabe_iOSUITestsLaunchTests.swift in Sources */,
 				95E8AFD42C2F1FF00084C3C7 /* Nomabe_iOSUITests.swift in Sources */,

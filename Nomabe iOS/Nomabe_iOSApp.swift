@@ -12,7 +12,6 @@ struct Nomabe_iOSApp: App {
     
     var body: some Scene {
         WindowGroup {
-            
             let service = FoodListService()
             let repository = FoodListRepository(service: service)
             let interactor = FoodListInteractor(repository: repository)
