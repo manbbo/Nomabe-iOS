@@ -28,6 +28,12 @@
 		95378A422C32EE4F0089C3DC /* MockedMessageModelList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95378A412C32EE4F0089C3DC /* MockedMessageModelList.swift */; };
 		95378A432C32EE4F0089C3DC /* MockedMessageModelList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95378A412C32EE4F0089C3DC /* MockedMessageModelList.swift */; };
 		95378A442C32EE4F0089C3DC /* MockedMessageModelList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95378A412C32EE4F0089C3DC /* MockedMessageModelList.swift */; };
+		95435A232C3351F70073DB04 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95435A222C3351F70073DB04 /* SearchBarView.swift */; };
+		95435A292C33563B0073DB04 /* FoodListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95435A282C33563B0073DB04 /* FoodListViewModel.swift */; };
+		95435A2A2C3359070073DB04 /* FoodListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95435A282C33563B0073DB04 /* FoodListViewModel.swift */; };
+		95435A2B2C3359070073DB04 /* FoodListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95435A282C33563B0073DB04 /* FoodListViewModel.swift */; };
+		95435A2C2C33592A0073DB04 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95435A222C3351F70073DB04 /* SearchBarView.swift */; };
+		95435A2D2C33592A0073DB04 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95435A222C3351F70073DB04 /* SearchBarView.swift */; };
 		95E8AFB82C2F1FEE0084C3C7 /* Nomabe_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E8AFB72C2F1FEE0084C3C7 /* Nomabe_iOSApp.swift */; };
 		95E8AFBC2C2F1FF00084C3C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95E8AFBB2C2F1FF00084C3C7 /* Assets.xcassets */; };
 		95E8AFC02C2F1FF00084C3C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95E8AFBF2C2F1FF00084C3C7 /* Preview Assets.xcassets */; };
@@ -79,6 +85,8 @@
 		95378A352C32ED1E0089C3DC /* TalkWithAIScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkWithAIScreenView.swift; sourceTree = "<group>"; };
 		95378A3C2C32ED9B0089C3DC /* MessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
 		95378A412C32EE4F0089C3DC /* MockedMessageModelList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockedMessageModelList.swift; sourceTree = "<group>"; };
+		95435A222C3351F70073DB04 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		95435A282C33563B0073DB04 /* FoodListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListViewModel.swift; sourceTree = "<group>"; };
 		95E8AFB42C2F1FEE0084C3C7 /* Nomabe iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nomabe iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95E8AFB72C2F1FEE0084C3C7 /* Nomabe_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nomabe_iOSApp.swift; sourceTree = "<group>"; };
 		95E8AFBB2C2F1FF00084C3C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -165,6 +173,23 @@
 			path = mocked;
 			sourceTree = "<group>";
 		};
+		95435A262C3356060073DB04 /* domain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = domain;
+			sourceTree = "<group>";
+		};
+		95435A272C33561B0073DB04 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				95378A272C32E4730089C3DC /* TalkWithAIButtonView.swift */,
+				95435A222C3351F70073DB04 /* SearchBarView.swift */,
+				95E8B0032C2F30A80084C3C7 /* FoodItemView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
 		95E8AFAB2C2F1FEE0084C3C7 = {
 			isa = PBXGroup;
 			children = (
@@ -235,6 +260,7 @@
 		95E8AFE42C2F23280084C3C7 /* list */ = {
 			isa = PBXGroup;
 			children = (
+				95435A262C3356060073DB04 /* domain */,
 				95E8AFEF2C2F242D0084C3C7 /* data */,
 				95E8AFE52C2F23310084C3C7 /* presentation */,
 			);
@@ -244,9 +270,9 @@
 		95E8AFE52C2F23310084C3C7 /* presentation */ = {
 			isa = PBXGroup;
 			children = (
-				95E8B0032C2F30A80084C3C7 /* FoodItemView.swift */,
+				95435A272C33561B0073DB04 /* views */,
 				95E8AFE62C2F23530084C3C7 /* FoodListView.swift */,
-				95378A272C32E4730089C3DC /* TalkWithAIButtonView.swift */,
+				95435A282C33563B0073DB04 /* FoodListViewModel.swift */,
 			);
 			path = presentation;
 			sourceTree = "<group>";
@@ -435,6 +461,7 @@
 			files = (
 				95378A322C32EB4B0089C3DC /* MessageView.swift in Sources */,
 				95E8AFFD2C2F2DF50084C3C7 /* MockedFoodListRequest.swift in Sources */,
+				95435A292C33563B0073DB04 /* FoodListViewModel.swift in Sources */,
 				95E8AFE72C2F23530084C3C7 /* FoodListView.swift in Sources */,
 				95E8AFF92C2F29FC0084C3C7 /* MockedFoodListResponse.swift in Sources */,
 				95E8AFB82C2F1FEE0084C3C7 /* Nomabe_iOSApp.swift in Sources */,
@@ -443,6 +470,7 @@
 				95378A242C32DAD80089C3DC /* Double+FormatAsPrice.swift in Sources */,
 				95378A422C32EE4F0089C3DC /* MockedMessageModelList.swift in Sources */,
 				95378A3D2C32ED9B0089C3DC /* MessageModel.swift in Sources */,
+				95435A232C3351F70073DB04 /* SearchBarView.swift in Sources */,
 				95378A362C32ED1E0089C3DC /* TalkWithAIScreenView.swift in Sources */,
 				95E8AFF42C2F25ED0084C3C7 /* NetworkRequest.swift in Sources */,
 				95378A282C32E4730089C3DC /* TalkWithAIButtonView.swift in Sources */,
@@ -456,7 +484,9 @@
 			files = (
 				95E8AFFA2C2F29FC0084C3C7 /* MockedFoodListResponse.swift in Sources */,
 				95E8AFE82C2F23530084C3C7 /* FoodListView.swift in Sources */,
+				95435A2A2C3359070073DB04 /* FoodListViewModel.swift in Sources */,
 				95378A372C32ED1E0089C3DC /* TalkWithAIScreenView.swift in Sources */,
+				95435A2C2C33592A0073DB04 /* SearchBarView.swift in Sources */,
 				95E8AFFE2C2F2DF50084C3C7 /* MockedFoodListRequest.swift in Sources */,
 				95378A252C32DB460089C3DC /* Double+FormatAsPrice.swift in Sources */,
 				95378A292C32E4730089C3DC /* TalkWithAIButtonView.swift in Sources */,
@@ -477,6 +507,7 @@
 			files = (
 				95378A342C32EB4B0089C3DC /* MessageView.swift in Sources */,
 				95E8AFFF2C2F2DF50084C3C7 /* MockedFoodListRequest.swift in Sources */,
+				95435A2B2C3359070073DB04 /* FoodListViewModel.swift in Sources */,
 				95E8AFE92C2F23530084C3C7 /* FoodListView.swift in Sources */,
 				95E8AFFB2C2F29FC0084C3C7 /* MockedFoodListResponse.swift in Sources */,
 				95E8AFD62C2F1FF00084C3C7 /* Nomabe_iOSUITestsLaunchTests.swift in Sources */,
@@ -489,6 +520,7 @@
 				95378A382C32ED1E0089C3DC /* TalkWithAIScreenView.swift in Sources */,
 				95E8AFF62C2F25ED0084C3C7 /* NetworkRequest.swift in Sources */,
 				95378A2A2C32E4730089C3DC /* TalkWithAIButtonView.swift in Sources */,
+				95435A2D2C33592A0073DB04 /* SearchBarView.swift in Sources */,
 				95E8B00A2C2F40300084C3C7 /* FoodItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
