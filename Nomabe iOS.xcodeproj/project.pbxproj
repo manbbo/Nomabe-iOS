@@ -1,0 +1,826 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95378A242C32DAD80089C3DC /* Double+FormatAsPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95378A232C32DAD80089C3DC /* Double+FormatAsPrice.swift */; };
+		95378A252C32DB460089C3DC /* Double+FormatAsPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95378A232C32DAD80089C3DC /* Double+FormatAsPrice.swift */; };
+		95378A262C32DB470089C3DC /* Double+FormatAsPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95378A232C32DAD80089C3DC /* Double+FormatAsPrice.swift */; };
+		95378A282C32E4730089C3DC /* TalkWithAIButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95378A272C32E4730089C3DC /* TalkWithAIButtonView.swift */; };
+		95378A292C32E4730089C3DC /* TalkWithAIButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95378A272C32E4730089C3DC /* TalkWithAIButtonView.swift */; };
+		95378A2A2C32E4730089C3DC /* TalkWithAIButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95378A272C32E4730089C3DC /* TalkWithAIButtonView.swift */; };
+		95378A2E2C32E8580089C3DC /* CoreMLImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95378A2D2C32E8580089C3DC /* CoreMLImpl.swift */; };
+		95378A2F2C32E8580089C3DC /* CoreMLImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95378A2D2C32E8580089C3DC /* CoreMLImpl.swift */; };
+		95378A302C32E8580089C3DC /* CoreMLImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95378A2D2C32E8580089C3DC /* CoreMLImpl.swift */; };
+		95378A322C32EB4B0089C3DC /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95378A312C32EB4B0089C3DC /* MessageView.swift */; };
+		95378A332C32EB4B0089C3DC /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95378A312C32EB4B0089C3DC /* MessageView.swift */; };
+		95378A342C32EB4B0089C3DC /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95378A312C32EB4B0089C3DC /* MessageView.swift */; };
+		95378A362C32ED1E0089C3DC /* TalkWithAIScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95378A352C32ED1E0089C3DC /* TalkWithAIScreenView.swift */; };
+		95378A372C32ED1E0089C3DC /* TalkWithAIScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95378A352C32ED1E0089C3DC /* TalkWithAIScreenView.swift */; };
+		95378A382C32ED1E0089C3DC /* TalkWithAIScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95378A352C32ED1E0089C3DC /* TalkWithAIScreenView.swift */; };
+		95378A3D2C32ED9B0089C3DC /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95378A3C2C32ED9B0089C3DC /* MessageModel.swift */; };
+		95378A3E2C32ED9B0089C3DC /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95378A3C2C32ED9B0089C3DC /* MessageModel.swift */; };
+		95378A3F2C32ED9B0089C3DC /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95378A3C2C32ED9B0089C3DC /* MessageModel.swift */; };
+		95378A422C32EE4F0089C3DC /* MockedMessageModelList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95378A412C32EE4F0089C3DC /* MockedMessageModelList.swift */; };
+		95378A432C32EE4F0089C3DC /* MockedMessageModelList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95378A412C32EE4F0089C3DC /* MockedMessageModelList.swift */; };
+		95378A442C32EE4F0089C3DC /* MockedMessageModelList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95378A412C32EE4F0089C3DC /* MockedMessageModelList.swift */; };
+		95E8AFB82C2F1FEE0084C3C7 /* Nomabe_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E8AFB72C2F1FEE0084C3C7 /* Nomabe_iOSApp.swift */; };
+		95E8AFBC2C2F1FF00084C3C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95E8AFBB2C2F1FF00084C3C7 /* Assets.xcassets */; };
+		95E8AFC02C2F1FF00084C3C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95E8AFBF2C2F1FF00084C3C7 /* Preview Assets.xcassets */; };
+		95E8AFCA2C2F1FF00084C3C7 /* Nomabe_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E8AFC92C2F1FF00084C3C7 /* Nomabe_iOSTests.swift */; };
+		95E8AFD42C2F1FF00084C3C7 /* Nomabe_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E8AFD32C2F1FF00084C3C7 /* Nomabe_iOSUITests.swift */; };
+		95E8AFD62C2F1FF00084C3C7 /* Nomabe_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E8AFD52C2F1FF00084C3C7 /* Nomabe_iOSUITestsLaunchTests.swift */; };
+		95E8AFE72C2F23530084C3C7 /* FoodListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E8AFE62C2F23530084C3C7 /* FoodListView.swift */; };
+		95E8AFE82C2F23530084C3C7 /* FoodListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E8AFE62C2F23530084C3C7 /* FoodListView.swift */; };
+		95E8AFE92C2F23530084C3C7 /* FoodListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E8AFE62C2F23530084C3C7 /* FoodListView.swift */; };
+		95E8AFEC2C2F23F80084C3C7 /* FoodListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E8AFEB2C2F23F80084C3C7 /* FoodListModel.swift */; };
+		95E8AFED2C2F23F80084C3C7 /* FoodListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E8AFEB2C2F23F80084C3C7 /* FoodListModel.swift */; };
+		95E8AFEE2C2F23F80084C3C7 /* FoodListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E8AFEB2C2F23F80084C3C7 /* FoodListModel.swift */; };
+		95E8AFF42C2F25ED0084C3C7 /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E8AFF32C2F25ED0084C3C7 /* NetworkRequest.swift */; };
+		95E8AFF52C2F25ED0084C3C7 /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E8AFF32C2F25ED0084C3C7 /* NetworkRequest.swift */; };
+		95E8AFF62C2F25ED0084C3C7 /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E8AFF32C2F25ED0084C3C7 /* NetworkRequest.swift */; };
+		95E8AFF92C2F29FC0084C3C7 /* MockedFoodListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E8AFF82C2F29FC0084C3C7 /* MockedFoodListResponse.swift */; };
+		95E8AFFA2C2F29FC0084C3C7 /* MockedFoodListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E8AFF82C2F29FC0084C3C7 /* MockedFoodListResponse.swift */; };
+		95E8AFFB2C2F29FC0084C3C7 /* MockedFoodListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E8AFF82C2F29FC0084C3C7 /* MockedFoodListResponse.swift */; };
+		95E8AFFD2C2F2DF50084C3C7 /* MockedFoodListRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E8AFFC2C2F2DF50084C3C7 /* MockedFoodListRequest.swift */; };
+		95E8AFFE2C2F2DF50084C3C7 /* MockedFoodListRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E8AFFC2C2F2DF50084C3C7 /* MockedFoodListRequest.swift */; };
+		95E8AFFF2C2F2DF50084C3C7 /* MockedFoodListRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E8AFFC2C2F2DF50084C3C7 /* MockedFoodListRequest.swift */; };
+		95E8B0042C2F30A80084C3C7 /* FoodItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E8B0032C2F30A80084C3C7 /* FoodItemView.swift */; };
+		95E8B0092C2F40300084C3C7 /* FoodItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E8B0032C2F30A80084C3C7 /* FoodItemView.swift */; };
+		95E8B00A2C2F40300084C3C7 /* FoodItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E8B0032C2F30A80084C3C7 /* FoodItemView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95E8AFC62C2F1FF00084C3C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95E8AFAC2C2F1FEE0084C3C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95E8AFB32C2F1FEE0084C3C7;
+			remoteInfo = "Nomabe iOS";
+		};
+		95E8AFD02C2F1FF00084C3C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95E8AFAC2C2F1FEE0084C3C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95E8AFB32C2F1FEE0084C3C7;
+			remoteInfo = "Nomabe iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		95378A232C32DAD80089C3DC /* Double+FormatAsPrice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+FormatAsPrice.swift"; sourceTree = "<group>"; };
+		95378A272C32E4730089C3DC /* TalkWithAIButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkWithAIButtonView.swift; sourceTree = "<group>"; };
+		95378A2D2C32E8580089C3DC /* CoreMLImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMLImpl.swift; sourceTree = "<group>"; };
+		95378A312C32EB4B0089C3DC /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		95378A352C32ED1E0089C3DC /* TalkWithAIScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkWithAIScreenView.swift; sourceTree = "<group>"; };
+		95378A3C2C32ED9B0089C3DC /* MessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
+		95378A412C32EE4F0089C3DC /* MockedMessageModelList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockedMessageModelList.swift; sourceTree = "<group>"; };
+		95E8AFB42C2F1FEE0084C3C7 /* Nomabe iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nomabe iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95E8AFB72C2F1FEE0084C3C7 /* Nomabe_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nomabe_iOSApp.swift; sourceTree = "<group>"; };
+		95E8AFBB2C2F1FF00084C3C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95E8AFBD2C2F1FF00084C3C7 /* Nomabe_iOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Nomabe_iOS.entitlements; sourceTree = "<group>"; };
+		95E8AFBF2C2F1FF00084C3C7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		95E8AFC52C2F1FF00084C3C7 /* Nomabe iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nomabe iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95E8AFC92C2F1FF00084C3C7 /* Nomabe_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nomabe_iOSTests.swift; sourceTree = "<group>"; };
+		95E8AFCF2C2F1FF00084C3C7 /* Nomabe iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nomabe iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95E8AFD32C2F1FF00084C3C7 /* Nomabe_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nomabe_iOSUITests.swift; sourceTree = "<group>"; };
+		95E8AFD52C2F1FF00084C3C7 /* Nomabe_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nomabe_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		95E8AFE62C2F23530084C3C7 /* FoodListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListView.swift; sourceTree = "<group>"; };
+		95E8AFEB2C2F23F80084C3C7 /* FoodListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListModel.swift; sourceTree = "<group>"; };
+		95E8AFF32C2F25ED0084C3C7 /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
+		95E8AFF82C2F29FC0084C3C7 /* MockedFoodListResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockedFoodListResponse.swift; sourceTree = "<group>"; };
+		95E8AFFC2C2F2DF50084C3C7 /* MockedFoodListRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockedFoodListRequest.swift; sourceTree = "<group>"; };
+		95E8B0032C2F30A80084C3C7 /* FoodItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItemView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95E8AFB12C2F1FEE0084C3C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95E8AFC22C2F1FF00084C3C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95E8AFCC2C2F1FF00084C3C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95378A2B2C32E81B0089C3DC /* talkwithai */ = {
+			isa = PBXGroup;
+			children = (
+				95378A392C32ED6C0089C3DC /* data */,
+				95378A2C2C32E82E0089C3DC /* presentation */,
+			);
+			path = talkwithai;
+			sourceTree = "<group>";
+		};
+		95378A2C2C32E82E0089C3DC /* presentation */ = {
+			isa = PBXGroup;
+			children = (
+				95378A312C32EB4B0089C3DC /* MessageView.swift */,
+				95378A352C32ED1E0089C3DC /* TalkWithAIScreenView.swift */,
+			);
+			path = presentation;
+			sourceTree = "<group>";
+		};
+		95378A392C32ED6C0089C3DC /* data */ = {
+			isa = PBXGroup;
+			children = (
+				95378A402C32EE3C0089C3DC /* mocked */,
+				95378A3B2C32ED7E0089C3DC /* model */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		95378A3B2C32ED7E0089C3DC /* model */ = {
+			isa = PBXGroup;
+			children = (
+				95378A3C2C32ED9B0089C3DC /* MessageModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		95378A402C32EE3C0089C3DC /* mocked */ = {
+			isa = PBXGroup;
+			children = (
+				95378A412C32EE4F0089C3DC /* MockedMessageModelList.swift */,
+			);
+			path = mocked;
+			sourceTree = "<group>";
+		};
+		95E8AFAB2C2F1FEE0084C3C7 = {
+			isa = PBXGroup;
+			children = (
+				95E8AFB62C2F1FEE0084C3C7 /* Nomabe iOS */,
+				95E8AFC82C2F1FF00084C3C7 /* Nomabe iOSTests */,
+				95E8AFD22C2F1FF00084C3C7 /* Nomabe iOSUITests */,
+				95E8AFB52C2F1FEE0084C3C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95E8AFB52C2F1FEE0084C3C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95E8AFB42C2F1FEE0084C3C7 /* Nomabe iOS.app */,
+				95E8AFC52C2F1FF00084C3C7 /* Nomabe iOSTests.xctest */,
+				95E8AFCF2C2F1FF00084C3C7 /* Nomabe iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95E8AFB62C2F1FEE0084C3C7 /* Nomabe iOS */ = {
+			isa = PBXGroup;
+			children = (
+				95378A2B2C32E81B0089C3DC /* talkwithai */,
+				95E8AFF22C2F25DD0084C3C7 /* core */,
+				95E8AFE42C2F23280084C3C7 /* list */,
+				95E8AFE32C2F230D0084C3C7 /* home */,
+				95E8AFB72C2F1FEE0084C3C7 /* Nomabe_iOSApp.swift */,
+				95E8AFBB2C2F1FF00084C3C7 /* Assets.xcassets */,
+				95E8AFBD2C2F1FF00084C3C7 /* Nomabe_iOS.entitlements */,
+				95E8AFBE2C2F1FF00084C3C7 /* Preview Content */,
+			);
+			path = "Nomabe iOS";
+			sourceTree = "<group>";
+		};
+		95E8AFBE2C2F1FF00084C3C7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				95E8AFBF2C2F1FF00084C3C7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		95E8AFC82C2F1FF00084C3C7 /* Nomabe iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				95E8AFC92C2F1FF00084C3C7 /* Nomabe_iOSTests.swift */,
+			);
+			path = "Nomabe iOSTests";
+			sourceTree = "<group>";
+		};
+		95E8AFD22C2F1FF00084C3C7 /* Nomabe iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				95E8AFD32C2F1FF00084C3C7 /* Nomabe_iOSUITests.swift */,
+				95E8AFD52C2F1FF00084C3C7 /* Nomabe_iOSUITestsLaunchTests.swift */,
+			);
+			path = "Nomabe iOSUITests";
+			sourceTree = "<group>";
+		};
+		95E8AFE32C2F230D0084C3C7 /* home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		95E8AFE42C2F23280084C3C7 /* list */ = {
+			isa = PBXGroup;
+			children = (
+				95E8AFEF2C2F242D0084C3C7 /* data */,
+				95E8AFE52C2F23310084C3C7 /* presentation */,
+			);
+			path = list;
+			sourceTree = "<group>";
+		};
+		95E8AFE52C2F23310084C3C7 /* presentation */ = {
+			isa = PBXGroup;
+			children = (
+				95E8B0032C2F30A80084C3C7 /* FoodItemView.swift */,
+				95E8AFE62C2F23530084C3C7 /* FoodListView.swift */,
+				95378A272C32E4730089C3DC /* TalkWithAIButtonView.swift */,
+			);
+			path = presentation;
+			sourceTree = "<group>";
+		};
+		95E8AFEA2C2F23E30084C3C7 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				95E8AFEB2C2F23F80084C3C7 /* FoodListModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		95E8AFEF2C2F242D0084C3C7 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				95E8AFF72C2F28740084C3C7 /* mocked */,
+				95E8AFF12C2F25740084C3C7 /* service */,
+				95E8AFF02C2F25680084C3C7 /* repository */,
+				95E8AFEA2C2F23E30084C3C7 /* model */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		95E8AFF02C2F25680084C3C7 /* repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = repository;
+			sourceTree = "<group>";
+		};
+		95E8AFF12C2F25740084C3C7 /* service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = service;
+			sourceTree = "<group>";
+		};
+		95E8AFF22C2F25DD0084C3C7 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				95E8AFF32C2F25ED0084C3C7 /* NetworkRequest.swift */,
+				95378A232C32DAD80089C3DC /* Double+FormatAsPrice.swift */,
+				95378A2D2C32E8580089C3DC /* CoreMLImpl.swift */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		95E8AFF72C2F28740084C3C7 /* mocked */ = {
+			isa = PBXGroup;
+			children = (
+				95E8AFF82C2F29FC0084C3C7 /* MockedFoodListResponse.swift */,
+				95E8AFFC2C2F2DF50084C3C7 /* MockedFoodListRequest.swift */,
+			);
+			path = mocked;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95E8AFB32C2F1FEE0084C3C7 /* Nomabe iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95E8AFD92C2F1FF00084C3C7 /* Build configuration list for PBXNativeTarget "Nomabe iOS" */;
+			buildPhases = (
+				95E8AFB02C2F1FEE0084C3C7 /* Sources */,
+				95E8AFB12C2F1FEE0084C3C7 /* Frameworks */,
+				95E8AFB22C2F1FEE0084C3C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nomabe iOS";
+			productName = "Nomabe iOS";
+			productReference = 95E8AFB42C2F1FEE0084C3C7 /* Nomabe iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95E8AFC42C2F1FF00084C3C7 /* Nomabe iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95E8AFDC2C2F1FF00084C3C7 /* Build configuration list for PBXNativeTarget "Nomabe iOSTests" */;
+			buildPhases = (
+				95E8AFC12C2F1FF00084C3C7 /* Sources */,
+				95E8AFC22C2F1FF00084C3C7 /* Frameworks */,
+				95E8AFC32C2F1FF00084C3C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95E8AFC72C2F1FF00084C3C7 /* PBXTargetDependency */,
+			);
+			name = "Nomabe iOSTests";
+			productName = "Nomabe iOSTests";
+			productReference = 95E8AFC52C2F1FF00084C3C7 /* Nomabe iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		95E8AFCE2C2F1FF00084C3C7 /* Nomabe iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95E8AFDF2C2F1FF00084C3C7 /* Build configuration list for PBXNativeTarget "Nomabe iOSUITests" */;
+			buildPhases = (
+				95E8AFCB2C2F1FF00084C3C7 /* Sources */,
+				95E8AFCC2C2F1FF00084C3C7 /* Frameworks */,
+				95E8AFCD2C2F1FF00084C3C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95E8AFD12C2F1FF00084C3C7 /* PBXTargetDependency */,
+			);
+			name = "Nomabe iOSUITests";
+			productName = "Nomabe iOSUITests";
+			productReference = 95E8AFCF2C2F1FF00084C3C7 /* Nomabe iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95E8AFAC2C2F1FEE0084C3C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					95E8AFB32C2F1FEE0084C3C7 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					95E8AFC42C2F1FF00084C3C7 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 95E8AFB32C2F1FEE0084C3C7;
+					};
+					95E8AFCE2C2F1FF00084C3C7 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 95E8AFB32C2F1FEE0084C3C7;
+					};
+				};
+			};
+			buildConfigurationList = 95E8AFAF2C2F1FEE0084C3C7 /* Build configuration list for PBXProject "Nomabe iOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95E8AFAB2C2F1FEE0084C3C7;
+			productRefGroup = 95E8AFB52C2F1FEE0084C3C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95E8AFB32C2F1FEE0084C3C7 /* Nomabe iOS */,
+				95E8AFC42C2F1FF00084C3C7 /* Nomabe iOSTests */,
+				95E8AFCE2C2F1FF00084C3C7 /* Nomabe iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95E8AFB22C2F1FEE0084C3C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95E8AFC02C2F1FF00084C3C7 /* Preview Assets.xcassets in Resources */,
+				95E8AFBC2C2F1FF00084C3C7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95E8AFC32C2F1FF00084C3C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95E8AFCD2C2F1FF00084C3C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95E8AFB02C2F1FEE0084C3C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95378A322C32EB4B0089C3DC /* MessageView.swift in Sources */,
+				95E8AFFD2C2F2DF50084C3C7 /* MockedFoodListRequest.swift in Sources */,
+				95E8AFE72C2F23530084C3C7 /* FoodListView.swift in Sources */,
+				95E8AFF92C2F29FC0084C3C7 /* MockedFoodListResponse.swift in Sources */,
+				95E8AFB82C2F1FEE0084C3C7 /* Nomabe_iOSApp.swift in Sources */,
+				95378A2E2C32E8580089C3DC /* CoreMLImpl.swift in Sources */,
+				95E8AFEC2C2F23F80084C3C7 /* FoodListModel.swift in Sources */,
+				95378A242C32DAD80089C3DC /* Double+FormatAsPrice.swift in Sources */,
+				95378A422C32EE4F0089C3DC /* MockedMessageModelList.swift in Sources */,
+				95378A3D2C32ED9B0089C3DC /* MessageModel.swift in Sources */,
+				95378A362C32ED1E0089C3DC /* TalkWithAIScreenView.swift in Sources */,
+				95E8AFF42C2F25ED0084C3C7 /* NetworkRequest.swift in Sources */,
+				95378A282C32E4730089C3DC /* TalkWithAIButtonView.swift in Sources */,
+				95E8B0042C2F30A80084C3C7 /* FoodItemView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95E8AFC12C2F1FF00084C3C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95E8AFFA2C2F29FC0084C3C7 /* MockedFoodListResponse.swift in Sources */,
+				95E8AFE82C2F23530084C3C7 /* FoodListView.swift in Sources */,
+				95378A372C32ED1E0089C3DC /* TalkWithAIScreenView.swift in Sources */,
+				95E8AFFE2C2F2DF50084C3C7 /* MockedFoodListRequest.swift in Sources */,
+				95378A252C32DB460089C3DC /* Double+FormatAsPrice.swift in Sources */,
+				95378A292C32E4730089C3DC /* TalkWithAIButtonView.swift in Sources */,
+				95378A3E2C32ED9B0089C3DC /* MessageModel.swift in Sources */,
+				95378A2F2C32E8580089C3DC /* CoreMLImpl.swift in Sources */,
+				95378A332C32EB4B0089C3DC /* MessageView.swift in Sources */,
+				95E8B0092C2F40300084C3C7 /* FoodItemView.swift in Sources */,
+				95E8AFED2C2F23F80084C3C7 /* FoodListModel.swift in Sources */,
+				95E8AFF52C2F25ED0084C3C7 /* NetworkRequest.swift in Sources */,
+				95378A432C32EE4F0089C3DC /* MockedMessageModelList.swift in Sources */,
+				95E8AFCA2C2F1FF00084C3C7 /* Nomabe_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95E8AFCB2C2F1FF00084C3C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95378A342C32EB4B0089C3DC /* MessageView.swift in Sources */,
+				95E8AFFF2C2F2DF50084C3C7 /* MockedFoodListRequest.swift in Sources */,
+				95E8AFE92C2F23530084C3C7 /* FoodListView.swift in Sources */,
+				95E8AFFB2C2F29FC0084C3C7 /* MockedFoodListResponse.swift in Sources */,
+				95E8AFD62C2F1FF00084C3C7 /* Nomabe_iOSUITestsLaunchTests.swift in Sources */,
+				95E8AFD42C2F1FF00084C3C7 /* Nomabe_iOSUITests.swift in Sources */,
+				95378A302C32E8580089C3DC /* CoreMLImpl.swift in Sources */,
+				95378A262C32DB470089C3DC /* Double+FormatAsPrice.swift in Sources */,
+				95E8AFEE2C2F23F80084C3C7 /* FoodListModel.swift in Sources */,
+				95378A442C32EE4F0089C3DC /* MockedMessageModelList.swift in Sources */,
+				95378A3F2C32ED9B0089C3DC /* MessageModel.swift in Sources */,
+				95378A382C32ED1E0089C3DC /* TalkWithAIScreenView.swift in Sources */,
+				95E8AFF62C2F25ED0084C3C7 /* NetworkRequest.swift in Sources */,
+				95378A2A2C32E4730089C3DC /* TalkWithAIButtonView.swift in Sources */,
+				95E8B00A2C2F40300084C3C7 /* FoodItemView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95E8AFC72C2F1FF00084C3C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95E8AFB32C2F1FEE0084C3C7 /* Nomabe iOS */;
+			targetProxy = 95E8AFC62C2F1FF00084C3C7 /* PBXContainerItemProxy */;
+		};
+		95E8AFD12C2F1FF00084C3C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95E8AFB32C2F1FEE0084C3C7 /* Nomabe iOS */;
+			targetProxy = 95E8AFD02C2F1FF00084C3C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		95E8AFD72C2F1FF00084C3C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		95E8AFD82C2F1FF00084C3C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		95E8AFDA2C2F1FF00084C3C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Nomabe iOS/Nomabe_iOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Nomabe iOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codepulse.Nomabe-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95E8AFDB2C2F1FF00084C3C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Nomabe iOS/Nomabe_iOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Nomabe iOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codepulse.Nomabe-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		95E8AFDD2C2F1FF00084C3C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codepulse.Nomabe-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nomabe iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Nomabe iOS";
+			};
+			name = Debug;
+		};
+		95E8AFDE2C2F1FF00084C3C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codepulse.Nomabe-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nomabe iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Nomabe iOS";
+			};
+			name = Release;
+		};
+		95E8AFE02C2F1FF00084C3C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codepulse.Nomabe-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Nomabe iOS";
+			};
+			name = Debug;
+		};
+		95E8AFE12C2F1FF00084C3C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codepulse.Nomabe-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Nomabe iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95E8AFAF2C2F1FEE0084C3C7 /* Build configuration list for PBXProject "Nomabe iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95E8AFD72C2F1FF00084C3C7 /* Debug */,
+				95E8AFD82C2F1FF00084C3C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95E8AFD92C2F1FF00084C3C7 /* Build configuration list for PBXNativeTarget "Nomabe iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95E8AFDA2C2F1FF00084C3C7 /* Debug */,
+				95E8AFDB2C2F1FF00084C3C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95E8AFDC2C2F1FF00084C3C7 /* Build configuration list for PBXNativeTarget "Nomabe iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95E8AFDD2C2F1FF00084C3C7 /* Debug */,
+				95E8AFDE2C2F1FF00084C3C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95E8AFDF2C2F1FF00084C3C7 /* Build configuration list for PBXNativeTarget "Nomabe iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95E8AFE02C2F1FF00084C3C7 /* Debug */,
+				95E8AFE12C2F1FF00084C3C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95E8AFAC2C2F1FEE0084C3C7 /* Project object */;
+}
