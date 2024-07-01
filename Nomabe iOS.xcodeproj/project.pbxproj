@@ -188,6 +188,7 @@
 		95435A262C3356060073DB04 /* domain */ = {
 			isa = PBXGroup;
 			children = (
+				95435A362C3361870073DB04 /* FoodListInteractor.swift */,
 			);
 			path = domain;
 			sourceTree = "<group>";
@@ -285,7 +286,6 @@
 				95435A272C33561B0073DB04 /* views */,
 				95E8AFE62C2F23530084C3C7 /* FoodListView.swift */,
 				95435A282C33563B0073DB04 /* FoodListViewModel.swift */,
-				95435A362C3361870073DB04 /* FoodListInteractor.swift */,
 			);
 			path = presentation;
 			sourceTree = "<group>";
