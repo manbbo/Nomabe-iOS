@@ -17,7 +17,7 @@ struct MessageView: View {
             }
             
             Text(message.content)
-                .foregroundColor(message.sentMessage ? .white : .black)
+                .foregroundColor(.white)
                 .padding()
                 .background(message.sentMessage ? .blue : .green)
                 .cornerRadius(20.0)
