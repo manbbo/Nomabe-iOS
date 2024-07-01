@@ -11,11 +11,11 @@ Nomabe is an innovative application for ordering food, seamlessly integrating th
   <img src="https://github.com/manbbo/Nomabe-iOS/blob/main/Prints/5.png?raw=true" width=250>
 </div>
 
-### About CoreML
+### About Gemini
 
-CoreML is a powerful framework by Apple designed to integrate machine learning models into Swift applications. It provides developers with tools to leverage machine learning capabilities directly on devices, enhancing app functionality with intelligent features.
+Gemini is a powerful framework designed to integrate machine learning models into Swift applications. It provides developers with tools to leverage machine learning capabilities directly on devices, enhancing app functionality with intelligent features.
 
-By incorporating CoreML into your Swift application, you can harness its capabilities for tasks such as image analysis, natural language processing, and more¹. For detailed instructions on integrating and using CoreML in your Swift project, refer to the official [CoreML documentation].
+By incorporating Gemini into your Swift application, you can harness its capabilities for tasks such as image analysis, natural language processing, and more. For detailed instructions on integrating and using Gemini in your Swift project, refer to the official [Gemini documentation].
 
 ## Getting Started
 
@@ -68,5 +68,5 @@ Nomabe is open-sourced under the [MIT License](LICENSE.md), promoting a collabor
 
 ---
 
-- Get started with CoreML in Swift apps: [CoreML Documentation](https://developer.apple.com/documentation/coreml).
-- GitHub - Your repository URL: `<repository_url>`. [GitHub Repository](https://github.com/your_username/your_repository).
+- Get started with Gemini in Swift apps: [Gemini Documentation](https://swiftpackageindex.com/google-gemini/generative-ai-swift).
+- GitHub - My GitHub `/manbbo`. [GitHub Repository](https://github.com/manbbo/nomabe-ios).
