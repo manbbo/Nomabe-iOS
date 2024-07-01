@@ -14,6 +14,8 @@ protocol FoodListServiceProtocol {
 
 class FoodListService: FoodListServiceProtocol {
     func fetchFoodList() -> AnyPublisher<[ProductItem], any Error> {
+        // create a call here
+        
         let response = mockedFoodListResponse
         return Just(response)
             .setFailureType(to: Error.self)
