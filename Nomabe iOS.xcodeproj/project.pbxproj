@@ -49,6 +49,11 @@
 		95435A462C336A950073DB04 /* ApiKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95435A452C336A950073DB04 /* ApiKey.swift */; };
 		95435A472C336A950073DB04 /* ApiKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95435A452C336A950073DB04 /* ApiKey.swift */; };
 		95435A482C336A950073DB04 /* ApiKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95435A452C336A950073DB04 /* ApiKey.swift */; };
+		95435A4A2C336C7D0073DB04 /* GoogleGenerativeAI in Frameworks */ = {isa = PBXBuildFile; productRef = 95435A492C336C7D0073DB04 /* GoogleGenerativeAI */; };
+		95435A4C2C336CEF0073DB04 /* InputBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95435A4B2C336CEF0073DB04 /* InputBarView.swift */; };
+		95435A4D2C336CEF0073DB04 /* InputBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95435A4B2C336CEF0073DB04 /* InputBarView.swift */; };
+		95435A4E2C336CEF0073DB04 /* InputBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95435A4B2C336CEF0073DB04 /* InputBarView.swift */; };
+		95435A502C3372930073DB04 /* TalkWithAIViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95435A4F2C3372930073DB04 /* TalkWithAIViewModel.swift */; };
 		95E8AFB82C2F1FEE0084C3C7 /* Nomabe_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E8AFB72C2F1FEE0084C3C7 /* Nomabe_iOSApp.swift */; };
 		95E8AFBC2C2F1FF00084C3C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95E8AFBB2C2F1FF00084C3C7 /* Assets.xcassets */; };
 		95E8AFC02C2F1FF00084C3C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95E8AFBF2C2F1FF00084C3C7 /* Preview Assets.xcassets */; };
@@ -107,6 +112,8 @@
 		95435A3B2C3364410073DB04 /* MockedCharHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockedCharHistory.swift; sourceTree = "<group>"; };
 		95435A412C3367E40073DB04 /* GenerativeAI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GenerativeAI-Info.plist"; sourceTree = "<group>"; };
 		95435A452C336A950073DB04 /* ApiKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiKey.swift; sourceTree = "<group>"; };
+		95435A4B2C336CEF0073DB04 /* InputBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputBarView.swift; sourceTree = "<group>"; };
+		95435A4F2C3372930073DB04 /* TalkWithAIViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkWithAIViewModel.swift; sourceTree = "<group>"; };
 		95E8AFB42C2F1FEE0084C3C7 /* Nomabe iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nomabe iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95E8AFB72C2F1FEE0084C3C7 /* Nomabe_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nomabe_iOSApp.swift; sourceTree = "<group>"; };
 		95E8AFBB2C2F1FF00084C3C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -130,6 +137,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95435A4A2C336C7D0073DB04 /* GoogleGenerativeAI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +173,7 @@
 			children = (
 				95435A3A2C3364110073DB04 /* views */,
 				95378A352C32ED1E0089C3DC /* TalkWithAIScreenView.swift */,
+				95435A4F2C3372930073DB04 /* TalkWithAIViewModel.swift */,
 			);
 			path = presentation;
 			sourceTree = "<group>";
@@ -216,6 +225,7 @@
 			isa = PBXGroup;
 			children = (
 				95378A312C32EB4B0089C3DC /* MessageView.swift */,
+				95435A4B2C336CEF0073DB04 /* InputBarView.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -386,6 +396,9 @@
 			dependencies = (
 			);
 			name = "Nomabe iOS";
+			packageProductDependencies = (
+				95435A492C336C7D0073DB04 /* GoogleGenerativeAI */,
+			);
 			productName = "Nomabe iOS";
 			productReference = 95E8AFB42C2F1FEE0084C3C7 /* Nomabe iOS.app */;
 			productType = "com.apple.product-type.application";
@@ -515,12 +528,14 @@
 				95378A2E2C32E8580089C3DC /* CoreMLImpl.swift in Sources */,
 				95435A2F2C3360A60073DB04 /* FoodListService.swift in Sources */,
 				95E8AFEC2C2F23F80084C3C7 /* FoodListModel.swift in Sources */,
+				95435A4C2C336CEF0073DB04 /* InputBarView.swift in Sources */,
 				95378A242C32DAD80089C3DC /* Double+FormatAsPrice.swift in Sources */,
 				95435A462C336A950073DB04 /* ApiKey.swift in Sources */,
 				95435A372C3361870073DB04 /* FoodListInteractor.swift in Sources */,
 				95378A3D2C32ED9B0089C3DC /* MessageModel.swift in Sources */,
 				95435A232C3351F70073DB04 /* SearchBarView.swift in Sources */,
 				95378A362C32ED1E0089C3DC /* TalkWithAIScreenView.swift in Sources */,
+				95435A502C3372930073DB04 /* TalkWithAIViewModel.swift in Sources */,
 				95E8AFF42C2F25ED0084C3C7 /* NetworkRequest.swift in Sources */,
 				95378A282C32E4730089C3DC /* TalkWithAIButtonView.swift in Sources */,
 				95435A3C2C3364410073DB04 /* MockedCharHistory.swift in Sources */,
@@ -542,6 +557,7 @@
 				95378A252C32DB460089C3DC /* Double+FormatAsPrice.swift in Sources */,
 				95435A302C3360A60073DB04 /* FoodListService.swift in Sources */,
 				95378A292C32E4730089C3DC /* TalkWithAIButtonView.swift in Sources */,
+				95435A4D2C336CEF0073DB04 /* InputBarView.swift in Sources */,
 				95378A3E2C32ED9B0089C3DC /* MessageModel.swift in Sources */,
 				95435A472C336A950073DB04 /* ApiKey.swift in Sources */,
 				95378A2F2C32E8580089C3DC /* CoreMLImpl.swift in Sources */,
@@ -561,6 +577,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				95378A342C32EB4B0089C3DC /* MessageView.swift in Sources */,
+				95435A4E2C336CEF0073DB04 /* InputBarView.swift in Sources */,
 				95E8AFFF2C2F2DF50084C3C7 /* MockedFoodListRequest.swift in Sources */,
 				95435A2B2C3359070073DB04 /* FoodListViewModel.swift in Sources */,
 				95E8AFE92C2F23530084C3C7 /* FoodListView.swift in Sources */,
@@ -923,6 +940,14 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		95435A492C336C7D0073DB04 /* GoogleGenerativeAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 95435A402C3365750073DB04 /* XCRemoteSwiftPackageReference "generative-ai-swift" */;
+			productName = GoogleGenerativeAI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 95E8AFAC2C2F1FEE0084C3C7 /* Project object */;
 }

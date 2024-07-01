@@ -35,24 +35,32 @@ struct TalkWithAIScreenView: View {
                     }
                     .padding()
                     
-                    HStack {
-                        TextField("Faça seu pedido...", text: $content)
-                            .onChange(of: content) { m, _ in
-                                if (m.isEmpty) { isDisabled = true }
-                                else { isDisabled = false }
-                            }
-                            .textFieldStyle(RoundedBorderTextFieldStyle())
-                            .padding(.horizontal)
-                        Button("Enviar") {
-                            chatHist.append(MessageModel(messageId: chatHist.count, sentMessage: true, content: content))
-                            content = ""
-                            
-                            scrollToBottom(scrollView: scrollView)
-                            hideKeyboard()
-                        }
-                        .disabled(isDisabled)
-                        .padding(.trailing)
-                    }
+                    InputBarView(content: $content, isDisabled: $isDisabled, sendMessage: {
+                        chatHist.append(MessageModel(messageId: chatHist.count, sentMessage: true, content: content))
+                        content = ""
+                        
+                        scrollToBottom(scrollView: scrollView)
+                        hideKeyboard()
+                    })
+                    
+//                    HStack {
+//                        TextField("Faça seu pedido...", text: $content)
+//                            .onChange(of: content) { m, _ in
+//                                if (m.isEmpty) { isDisabled = true }
+//                                else { isDisabled = false }
+//                            }
+//                            .textFieldStyle(RoundedBorderTextFieldStyle())
+//                            .padding(.horizontal)
+//                        Button("Enviar") {
+//                            chatHist.append(MessageModel(messageId: chatHist.count, sentMessage: true, content: content))
+//                            content = ""
+//                            
+//                            scrollToBottom(scrollView: scrollView)
+//                            hideKeyboard()
+//                        }
+//                        .disabled(isDisabled)
+//                        .padding(.trailing)
+//                    }
                 }
             }
             .navigationTitle("Pergunte à Nomabe")
@@ -79,6 +87,6 @@ struct TalkWithAIScreenView: View {
     }
 }
 
-#Preview {
-    TalkWithAIScreenView()
-}
+//#Preview {
+//    TalkWithAIScreenView()
+//}

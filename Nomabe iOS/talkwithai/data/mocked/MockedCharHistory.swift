@@ -7,7 +7,7 @@
 
 import Foundation
 
-var mockedChatHist = [
+var mockedChatHist: [MessageModel] = [
     MessageModel(messageId: 0, sentMessage: true, content: "Olá!"),
     MessageModel(messageId: 1, sentMessage: false, content: "Oi! Como posso ajudar hoje?"),
     MessageModel(messageId: 2, sentMessage: true, content: "Estou procurando um prato saudável para a minha dieta. Você pode me ajudar?"),
