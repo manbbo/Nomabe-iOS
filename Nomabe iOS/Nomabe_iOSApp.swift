@@ -9,9 +9,15 @@ import SwiftUI
 
 @main
 struct Nomabe_iOSApp: App {
+    
     var body: some Scene {
         WindowGroup {
-            FoodListView()
+            
+            let service = FoodListService()
+            let repository = FoodListRepository(service: service)
+            let interactor = FoodListInteractor(repository: repository)
+            let viewModel = FoodListViewModel(interactor: interactor)
+            FoodListView(viewModel: viewModel)
         }
     }
 }

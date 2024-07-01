@@ -34,6 +34,15 @@
 		95435A2B2C3359070073DB04 /* FoodListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95435A282C33563B0073DB04 /* FoodListViewModel.swift */; };
 		95435A2C2C33592A0073DB04 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95435A222C3351F70073DB04 /* SearchBarView.swift */; };
 		95435A2D2C33592A0073DB04 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95435A222C3351F70073DB04 /* SearchBarView.swift */; };
+		95435A2F2C3360A60073DB04 /* FoodListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95435A2E2C3360A60073DB04 /* FoodListService.swift */; };
+		95435A302C3360A60073DB04 /* FoodListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95435A2E2C3360A60073DB04 /* FoodListService.swift */; };
+		95435A312C3360A60073DB04 /* FoodListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95435A2E2C3360A60073DB04 /* FoodListService.swift */; };
+		95435A332C3361280073DB04 /* FoodListRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95435A322C3361280073DB04 /* FoodListRepository.swift */; };
+		95435A342C3361280073DB04 /* FoodListRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95435A322C3361280073DB04 /* FoodListRepository.swift */; };
+		95435A352C3361280073DB04 /* FoodListRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95435A322C3361280073DB04 /* FoodListRepository.swift */; };
+		95435A372C3361870073DB04 /* FoodListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95435A362C3361870073DB04 /* FoodListInteractor.swift */; };
+		95435A382C3361870073DB04 /* FoodListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95435A362C3361870073DB04 /* FoodListInteractor.swift */; };
+		95435A392C3361870073DB04 /* FoodListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95435A362C3361870073DB04 /* FoodListInteractor.swift */; };
 		95E8AFB82C2F1FEE0084C3C7 /* Nomabe_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E8AFB72C2F1FEE0084C3C7 /* Nomabe_iOSApp.swift */; };
 		95E8AFBC2C2F1FF00084C3C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95E8AFBB2C2F1FF00084C3C7 /* Assets.xcassets */; };
 		95E8AFC02C2F1FF00084C3C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95E8AFBF2C2F1FF00084C3C7 /* Preview Assets.xcassets */; };
@@ -87,6 +96,9 @@
 		95378A412C32EE4F0089C3DC /* MockedMessageModelList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockedMessageModelList.swift; sourceTree = "<group>"; };
 		95435A222C3351F70073DB04 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		95435A282C33563B0073DB04 /* FoodListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListViewModel.swift; sourceTree = "<group>"; };
+		95435A2E2C3360A60073DB04 /* FoodListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListService.swift; sourceTree = "<group>"; };
+		95435A322C3361280073DB04 /* FoodListRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListRepository.swift; sourceTree = "<group>"; };
+		95435A362C3361870073DB04 /* FoodListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListInteractor.swift; sourceTree = "<group>"; };
 		95E8AFB42C2F1FEE0084C3C7 /* Nomabe iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nomabe iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95E8AFB72C2F1FEE0084C3C7 /* Nomabe_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nomabe_iOSApp.swift; sourceTree = "<group>"; };
 		95E8AFBB2C2F1FF00084C3C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -273,6 +285,7 @@
 				95435A272C33561B0073DB04 /* views */,
 				95E8AFE62C2F23530084C3C7 /* FoodListView.swift */,
 				95435A282C33563B0073DB04 /* FoodListViewModel.swift */,
+				95435A362C3361870073DB04 /* FoodListInteractor.swift */,
 			);
 			path = presentation;
 			sourceTree = "<group>";
@@ -299,6 +312,7 @@
 		95E8AFF02C2F25680084C3C7 /* repository */ = {
 			isa = PBXGroup;
 			children = (
+				95435A322C3361280073DB04 /* FoodListRepository.swift */,
 			);
 			path = repository;
 			sourceTree = "<group>";
@@ -306,6 +320,7 @@
 		95E8AFF12C2F25740084C3C7 /* service */ = {
 			isa = PBXGroup;
 			children = (
+				95435A2E2C3360A60073DB04 /* FoodListService.swift */,
 			);
 			path = service;
 			sourceTree = "<group>";
@@ -466,14 +481,17 @@
 				95E8AFF92C2F29FC0084C3C7 /* MockedFoodListResponse.swift in Sources */,
 				95E8AFB82C2F1FEE0084C3C7 /* Nomabe_iOSApp.swift in Sources */,
 				95378A2E2C32E8580089C3DC /* CoreMLImpl.swift in Sources */,
+				95435A2F2C3360A60073DB04 /* FoodListService.swift in Sources */,
 				95E8AFEC2C2F23F80084C3C7 /* FoodListModel.swift in Sources */,
 				95378A242C32DAD80089C3DC /* Double+FormatAsPrice.swift in Sources */,
 				95378A422C32EE4F0089C3DC /* MockedMessageModelList.swift in Sources */,
+				95435A372C3361870073DB04 /* FoodListInteractor.swift in Sources */,
 				95378A3D2C32ED9B0089C3DC /* MessageModel.swift in Sources */,
 				95435A232C3351F70073DB04 /* SearchBarView.swift in Sources */,
 				95378A362C32ED1E0089C3DC /* TalkWithAIScreenView.swift in Sources */,
 				95E8AFF42C2F25ED0084C3C7 /* NetworkRequest.swift in Sources */,
 				95378A282C32E4730089C3DC /* TalkWithAIButtonView.swift in Sources */,
+				95435A332C3361280073DB04 /* FoodListRepository.swift in Sources */,
 				95E8B0042C2F30A80084C3C7 /* FoodItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -489,14 +507,17 @@
 				95435A2C2C33592A0073DB04 /* SearchBarView.swift in Sources */,
 				95E8AFFE2C2F2DF50084C3C7 /* MockedFoodListRequest.swift in Sources */,
 				95378A252C32DB460089C3DC /* Double+FormatAsPrice.swift in Sources */,
+				95435A302C3360A60073DB04 /* FoodListService.swift in Sources */,
 				95378A292C32E4730089C3DC /* TalkWithAIButtonView.swift in Sources */,
 				95378A3E2C32ED9B0089C3DC /* MessageModel.swift in Sources */,
 				95378A2F2C32E8580089C3DC /* CoreMLImpl.swift in Sources */,
+				95435A382C3361870073DB04 /* FoodListInteractor.swift in Sources */,
 				95378A332C32EB4B0089C3DC /* MessageView.swift in Sources */,
 				95E8B0092C2F40300084C3C7 /* FoodItemView.swift in Sources */,
 				95E8AFED2C2F23F80084C3C7 /* FoodListModel.swift in Sources */,
 				95E8AFF52C2F25ED0084C3C7 /* NetworkRequest.swift in Sources */,
 				95378A432C32EE4F0089C3DC /* MockedMessageModelList.swift in Sources */,
+				95435A342C3361280073DB04 /* FoodListRepository.swift in Sources */,
 				95E8AFCA2C2F1FF00084C3C7 /* Nomabe_iOSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -518,9 +539,12 @@
 				95378A442C32EE4F0089C3DC /* MockedMessageModelList.swift in Sources */,
 				95378A3F2C32ED9B0089C3DC /* MessageModel.swift in Sources */,
 				95378A382C32ED1E0089C3DC /* TalkWithAIScreenView.swift in Sources */,
+				95435A312C3360A60073DB04 /* FoodListService.swift in Sources */,
 				95E8AFF62C2F25ED0084C3C7 /* NetworkRequest.swift in Sources */,
 				95378A2A2C32E4730089C3DC /* TalkWithAIButtonView.swift in Sources */,
+				95435A352C3361280073DB04 /* FoodListRepository.swift in Sources */,
 				95435A2D2C33592A0073DB04 /* SearchBarView.swift in Sources */,
+				95435A392C3361870073DB04 /* FoodListInteractor.swift in Sources */,
 				95E8B00A2C2F40300084C3C7 /* FoodItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

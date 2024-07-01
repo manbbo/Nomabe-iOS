@@ -8,14 +8,17 @@
 import SwiftUI
 
 struct FoodListView: View {
-    @StateObject private var viewModel = FoodListViewModel()
+    @StateObject private var viewModel: FoodListViewModel
+    
+    init(viewModel: FoodListViewModel) {
+        _viewModel = StateObject(wrappedValue: viewModel)
+    }
     
     var body: some View {
         NavigationView {
             VStack {
                 VStack {
                     if viewModel.isSearchBarVisible {
-                        
                         SearchBarView(searchText: $viewModel.searchText, onSearchCancel: {
                             viewModel.cancelSearch()
                         })
@@ -55,6 +58,13 @@ struct FoodListView: View {
     }
 }
 
-#Preview {
-    FoodListView()
+struct FoodListView_Previews: PreviewProvider {
+    static var previews: some View {
+        let service = FoodListService()
+        let repository = FoodListRepository(service: service)
+        let interactor = FoodListInteractor(repository: repository)
+        let viewModel = FoodListViewModel(interactor: interactor)
+        
+        FoodListView(viewModel: viewModel)
+    }
 }
