@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		951C2F422C36F6E90071CD41 /* TalkWithAIInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951C2F412C36F6E90071CD41 /* TalkWithAIInteractorProtocol.swift */; };
+		951C2F432C36F6E90071CD41 /* TalkWithAIInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951C2F412C36F6E90071CD41 /* TalkWithAIInteractorProtocol.swift */; };
+		951C2F442C36F6E90071CD41 /* TalkWithAIInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951C2F412C36F6E90071CD41 /* TalkWithAIInteractorProtocol.swift */; };
+		951C2F452C36F6F80071CD41 /* TalkWithAIViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95435A4F2C3372930073DB04 /* TalkWithAIViewModel.swift */; };
+		951C2F462C36F6F90071CD41 /* TalkWithAIViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95435A4F2C3372930073DB04 /* TalkWithAIViewModel.swift */; };
 		95378A242C32DAD80089C3DC /* Double+FormatAsPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95378A232C32DAD80089C3DC /* Double+FormatAsPrice.swift */; };
 		95378A252C32DB460089C3DC /* Double+FormatAsPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95378A232C32DAD80089C3DC /* Double+FormatAsPrice.swift */; };
 		95378A262C32DB470089C3DC /* Double+FormatAsPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95378A232C32DAD80089C3DC /* Double+FormatAsPrice.swift */; };
@@ -98,6 +103,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		951C2F412C36F6E90071CD41 /* TalkWithAIInteractorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkWithAIInteractorProtocol.swift; sourceTree = "<group>"; };
 		95378A232C32DAD80089C3DC /* Double+FormatAsPrice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+FormatAsPrice.swift"; sourceTree = "<group>"; };
 		95378A272C32E4730089C3DC /* TalkWithAIButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkWithAIButtonView.swift; sourceTree = "<group>"; };
 		95378A2D2C32E8580089C3DC /* CoreMLImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMLImpl.swift; sourceTree = "<group>"; };
@@ -233,6 +239,7 @@
 		95435A3F2C3364870073DB04 /* domain */ = {
 			isa = PBXGroup;
 			children = (
+				951C2F412C36F6E90071CD41 /* TalkWithAIInteractorProtocol.swift */,
 			);
 			path = domain;
 			sourceTree = "<group>";
@@ -529,6 +536,7 @@
 				95435A2F2C3360A60073DB04 /* FoodListService.swift in Sources */,
 				95E8AFEC2C2F23F80084C3C7 /* FoodListModel.swift in Sources */,
 				95435A4C2C336CEF0073DB04 /* InputBarView.swift in Sources */,
+				951C2F422C36F6E90071CD41 /* TalkWithAIInteractorProtocol.swift in Sources */,
 				95378A242C32DAD80089C3DC /* Double+FormatAsPrice.swift in Sources */,
 				95435A462C336A950073DB04 /* ApiKey.swift in Sources */,
 				95435A372C3361870073DB04 /* FoodListInteractor.swift in Sources */,
@@ -548,6 +556,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				951C2F432C36F6E90071CD41 /* TalkWithAIInteractorProtocol.swift in Sources */,
 				95E8AFFA2C2F29FC0084C3C7 /* MockedFoodListResponse.swift in Sources */,
 				95E8AFE82C2F23530084C3C7 /* FoodListView.swift in Sources */,
 				95435A2A2C3359070073DB04 /* FoodListViewModel.swift in Sources */,
@@ -566,6 +575,7 @@
 				95E8B0092C2F40300084C3C7 /* FoodItemView.swift in Sources */,
 				95E8AFED2C2F23F80084C3C7 /* FoodListModel.swift in Sources */,
 				95E8AFF52C2F25ED0084C3C7 /* NetworkRequest.swift in Sources */,
+				951C2F452C36F6F80071CD41 /* TalkWithAIViewModel.swift in Sources */,
 				95435A3D2C3364410073DB04 /* MockedCharHistory.swift in Sources */,
 				95435A342C3361280073DB04 /* FoodListRepository.swift in Sources */,
 				95E8AFCA2C2F1FF00084C3C7 /* Nomabe_iOSTests.swift in Sources */,
@@ -586,6 +596,7 @@
 				95E8AFD62C2F1FF00084C3C7 /* Nomabe_iOSUITestsLaunchTests.swift in Sources */,
 				95E8AFD42C2F1FF00084C3C7 /* Nomabe_iOSUITests.swift in Sources */,
 				95378A302C32E8580089C3DC /* CoreMLImpl.swift in Sources */,
+				951C2F442C36F6E90071CD41 /* TalkWithAIInteractorProtocol.swift in Sources */,
 				95378A262C32DB470089C3DC /* Double+FormatAsPrice.swift in Sources */,
 				95E8AFEE2C2F23F80084C3C7 /* FoodListModel.swift in Sources */,
 				95378A3F2C32ED9B0089C3DC /* MessageModel.swift in Sources */,
@@ -593,6 +604,7 @@
 				95435A312C3360A60073DB04 /* FoodListService.swift in Sources */,
 				95E8AFF62C2F25ED0084C3C7 /* NetworkRequest.swift in Sources */,
 				95435A3E2C3364410073DB04 /* MockedCharHistory.swift in Sources */,
+				951C2F462C36F6F90071CD41 /* TalkWithAIViewModel.swift in Sources */,
 				95378A2A2C32E4730089C3DC /* TalkWithAIButtonView.swift in Sources */,
 				95435A352C3361280073DB04 /* FoodListRepository.swift in Sources */,
 				95435A2D2C33592A0073DB04 /* SearchBarView.swift in Sources */,
