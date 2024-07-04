@@ -56,7 +56,7 @@ struct FoodItemView: View {
             isPresented = true
         }
         .fullScreenCover(isPresented: $isPresented, content: {
-            TalkWithAIScreenView()
+//            go to food screen view
         })
     }
 }

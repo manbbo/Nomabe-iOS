@@ -39,7 +39,9 @@ struct FoodListView: View {
                                 viewModel.setIsPresented()
                             }
                             .sheet(isPresented: $viewModel.isPresented, content: {
-                                TalkWithAIScreenView()
+                                let aiViewModel = TalkWithAIViewModel(
+                                separatorSymbol: "\\\\\\\\", foodItems: mockedFoodListResponse)
+                                TalkWithAIScreenView(viewModel: aiViewModel)
                             })
                         }
                     }

@@ -10,6 +10,7 @@ import SwiftUI
 struct InputBarView: View {
     @Binding var content: String
     @Binding var isDisabled: Bool
+    @Binding var isChatDisabled: Bool
     var sendMessage: () -> Void
     
     var body: some View {
@@ -17,16 +18,12 @@ struct InputBarView: View {
             TextField("Faça seu pedido...", text: $content)
                 .textFieldStyle(RoundedBorderTextFieldStyle())
                 .padding(.horizontal)
+                .disabled(isChatDisabled)
                 .onChange(of: content) { _,__ in
                     setIsDisabled()
                 }
             Button("Enviar") {
                 sendMessage()
-                //                chatHist.append(MessageModel(messageId: chatHist.count, sentMessage: true, content: content))
-                //                content = ""
-                //
-                //                scrollToBottom(scrollView: scrollView)
-                //                hideKeyboard()
             }
             .disabled(isDisabled)
             .padding(.trailing)
@@ -42,10 +39,12 @@ struct InputBarView: View {
 struct InputBarView_Previews: PreviewProvider {
     @State static var content = ""
     @State static var isDisabled = true
+    @State static var isChatDisabled = false
     
     static var previews: some View {
         InputBarView(content: $content,
                      isDisabled: $isDisabled,
+                     isChatDisabled: $isChatDisabled,
                      sendMessage: {
             isDisabled = false
         })

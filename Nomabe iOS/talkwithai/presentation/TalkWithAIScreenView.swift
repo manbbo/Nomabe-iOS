@@ -8,25 +8,28 @@
 import SwiftUI
 
 struct TalkWithAIScreenView: View {
-    @State private var content = ""
-    @Environment(\.dismiss) private var dismiss
-    @State private var isDisabled = true
+    @StateObject private var viewModel: TalkWithAIViewModel
     
-    @State var chatHist = mockedChatHist
-
+    @Environment(\.dismiss) private var dismiss
+    
+    init(viewModel: TalkWithAIViewModel) {
+        _viewModel = StateObject(wrappedValue: viewModel)
+    }
+    
     var body: some View {
         NavigationStack{
             VStack{
                 ScrollViewReader { scrollView in
                     ScrollView {
                         LazyVStack {
-                            ForEach(chatHist, id: \.messageId) { chat in
-                                MessageView(message: chat)
-                                    .id(chat.messageId)
-                            }
-                            
-                            .onChange(of: chatHist) { _, __ in
-                                scrollToBottom(scrollView: scrollView)
+                            if (!viewModel.chatHist.isEmpty) {
+                                ForEach(viewModel.chatHist, id: \.messageId) { chat in
+                                    MessageView(message: chat)
+                                        .id(chat.messageId)
+                                }
+                                .onChange(of: viewModel.chatHist) { _, __ in
+                                    scrollToBottom(scrollView: scrollView)
+                                }
                             }
                         }
                     }
@@ -35,13 +38,16 @@ struct TalkWithAIScreenView: View {
                     }
                     .padding()
                     
-                    InputBarView(content: $content, isDisabled: $isDisabled, sendMessage: {
-                        chatHist.append(MessageModel(messageId: chatHist.count, sentMessage: true, content: content))
-                        content = ""
-                        
-                        scrollToBottom(scrollView: scrollView)
-                        hideKeyboard()
-                    })
+                    InputBarView(
+                        content: $viewModel.content,
+                        isDisabled: $viewModel.isDisabled,
+                        isChatDisabled: $viewModel.isChatDisabled,
+                        sendMessage: {
+                            viewModel.sendMessage()
+                            scrollToBottom(scrollView: scrollView)
+                            hideKeyboard()
+                        }
+                    )
                 }
             }
             .navigationTitle("Pergunte à Nomabe")
@@ -58,7 +64,7 @@ struct TalkWithAIScreenView: View {
     func scrollToBottom(scrollView: ScrollViewProxy) {
         DispatchQueue.main.async {
             withAnimation {
-                scrollView.scrollTo(chatHist.last?.messageId, anchor: .bottom)
+                scrollView.scrollTo(viewModel.getLastChatId(), anchor: .bottom)
             }
         }
     }
@@ -68,6 +74,9 @@ struct TalkWithAIScreenView: View {
     }
 }
 
-#Preview {
-    TalkWithAIScreenView()
+struct TalkWithAIScreenView_Previews: PreviewProvider {
+    static var previews: some View {
+        let viewModel = TalkWithAIViewModel(separatorSymbol: "", foodItems: [])
+        TalkWithAIScreenView(viewModel: viewModel)
+    }
 }
